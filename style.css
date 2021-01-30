@@ -81,3 +81,18 @@ body{
     transition-delay: 150ms;
     transition-duration: 850ms;
 }
+
+.main-footer span{
+    /*      color: #ccc; */
+    transition-delay: 150ms;
+    transition-duration: 1350ms;
+}
+
+.main-footer{
+    font-size: .9em;
+    letter-spacing: .18rem;
+    margin-bottom: 1.5rem;
+    margin-top: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
