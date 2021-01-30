@@ -107,3 +107,36 @@ body{
     width: 0vw;
     transition: all 100ms ease-in-out 300ms;
 }
+
+.main-nav-list::before{
+    left: 0;
+}
+.main-nav-list::after{
+    right: 0;
+}
+
+.main-nav-list ul{
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    z-index: 2000;
+}
+
+.main-nav-list a{
+    display: block;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    opacity: 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition-delay: 130ms;
+}
+
+.main-nav-list .mobile-hide{/** Hide the link when viewing site on mobile devices. **/
+    display: none;
+}
+
