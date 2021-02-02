@@ -97,7 +97,7 @@ body{
 
 .main-nav-list::before,
 .main-nav-list::after{
-    background-color:#b94071;
+    background-color:darkolivegreen;
     content:"";
     position: absolute;
     top: 0;
