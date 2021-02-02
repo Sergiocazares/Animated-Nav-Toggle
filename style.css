@@ -134,7 +134,7 @@ body{
     transition-delay: 130ms;
 }
 
-.main-nav-list .mobile-hide{/** Hide the link when viewing site on mobile devices. **/
+.main-nav-list .mobile-hide{
     display: none;
 }
 
@@ -161,7 +161,6 @@ body{
 .main-nav-list.active::before,
 .main-nav-list.active::after{
     width: 25vw;
-    /*     transition-duration: 1000ms; */
 }
 
 .main-nav-list.active ul{
